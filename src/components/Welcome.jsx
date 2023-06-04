@@ -18,9 +18,9 @@ const Welcome = () => {
   return (
     <Container>
       <img src={Hello} alt="" />
-      <h1>
+      <h2>
         Welcome, <span className="dark:text-[#4e0eff] text-[#eedc82]">{userName}!</span>
-      </h1>
+      </h2>
       <h3>Please select a chat to Start messaging.</h3>
     </Container>
   );
