@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import Hello from "../assets/hello.gif";
-import Logout from "./Logout";
+
 
 const Welcome = () => {
   const [userName, setUserName] = useState("");
